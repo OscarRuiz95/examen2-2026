@@ -16,3 +16,4 @@ Route::post('/materiales', [MaterialController::class, 'store']);
 Route::get('/materiales', [MaterialController::class, 'index']);
 
 //GET http://127.0.0.1:8000/api/materiales
+

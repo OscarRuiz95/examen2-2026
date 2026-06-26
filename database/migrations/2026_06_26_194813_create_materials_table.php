@@ -12,7 +12,7 @@ return new class extends Migration
 
             $table->id('codigo');
 
-            $table->string('descripcion');
+            $table->string('descripcion'); //descripcion del material
 
             $table->string('ubicacion');
 

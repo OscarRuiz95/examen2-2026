@@ -16,7 +16,7 @@ class Material extends Model
     protected $fillable = [
         'descripcion',
         'ubicacion',
-        'idCategoria'
+        'idCategoria' //llave foranea de la tabla categoria
     ];
 
     public function categoria()

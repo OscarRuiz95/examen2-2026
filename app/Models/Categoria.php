@@ -11,7 +11,7 @@ class Categoria extends Model
 
     protected $table = 'categorias';
 
-    protected $primaryKey = 'idCategoria';
+    protected $primaryKey = 'idCategoria';//llave primaria de la tabla categoria
 
     protected $fillable = [
         'nombre'

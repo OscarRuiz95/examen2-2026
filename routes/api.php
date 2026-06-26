@@ -13,3 +13,6 @@ Route::post('/materiales', [MaterialController::class, 'store']);
 
 //URL DEL ENDPOINT POST: http://127.0.0.1:8000/api/materiales
 
+Route::get('/materiales', [MaterialController::class, 'index']);
+
+//GET http://127.0.0.1:8000/api/materiales
